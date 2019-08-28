@@ -48,11 +48,9 @@ FILE_3=sound.agc;-1
 FILE_4=menu.agc;-1
 
 [files]
-FILE_NAME_0=1;main.agc;1003;0
-FILE_NAME_1=0;candy.agc;382;1
-FILE_NAME_2=0;gambar.agc;544;2
-FILE_NAME_3=0;sound.agc;0;3
-FILE_NAME_4=0;menu.agc;2;4
+FILE_NAME_0=0;main.agc;709;0
+FILE_NAME_1=1;candy.agc;504;1
+FILE_NAME_2=0;gambar.agc;1057;2
 
 [project]
 description=

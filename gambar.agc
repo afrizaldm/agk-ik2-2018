@@ -17,6 +17,25 @@ LoadImage(7,"gameoverlayer.png")
 CreateSprite(7,7) 
 SetSpriteVisible ( 7, 0 )
 
+LoadImage(8,"bg_1.jpg") 
+CreateSprite(8,8) 
+SetSpriteVisible ( 8,1 )
+SetSpriteSize(8,1024, 720) 
+
+//Gambar menu
+LoadImage(9,"play.png") 
+CreateSprite(9,9) 
+SetSpriteSize(9,250, 100) 
+SetSpritePosition(9,250,200)
+//LoadImage(10,"setting.png") 
+//CreateSprite(10,10) 
+//SetSpriteSize(10,250, 100) 
+//SetSpritePosition(10,250,310)
+LoadImage(11,"quit.png") 
+CreateSprite(11,11) 
+SetSpriteSize(11,250, 100) 
+SetSpritePosition(11,250,310)
+
 //Untuk nilai score biar 0 di awal
 SetSpritePosition(4,-500,0)
 SetSpritePosition(5,-500,0)
@@ -31,5 +50,5 @@ SetSpriteShape(5,3)
 SetSpriteShape(6,3)
 SetSpriteShape(7,3)
 
-SetPhysicsDebugOn ()
+//SetPhysicsDebugOn ()
 

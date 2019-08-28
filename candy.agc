@@ -1,6 +1,8 @@
 permen:
 
 ab = ab + 10
+SetTextVisible (1 , 0)
+SetTextVisible (2 , 0)
 
 SetSpriteVisible ( 4, 0 )
 SetSpriteVisible ( 5, 0 )
@@ -18,7 +20,7 @@ if(ab>=550 or GetSpriteCollision(1 , aa)=1 or GetSpriteCollision(2 , aa)=1)
 		SetTextString(2,Str(nilai))
 		if(aa = 6)
 			//PlaySound(3)
-			hidup = 0
+			hidup = 2
 		else
 			//PlaySound(2)
 		endif
